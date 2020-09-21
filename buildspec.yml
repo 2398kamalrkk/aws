@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - my-web-app.war
-  base-directory: 'target/my-web-app'
