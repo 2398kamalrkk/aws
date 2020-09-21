@@ -7,7 +7,7 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target ./
+      - mv target/my-web-app.war ./
 artifacts:
   files:
-    - target/**/*
+    - ./**/*
